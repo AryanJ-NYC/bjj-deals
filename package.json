@@ -1,0 +1,36 @@
+{
+  "name": "bjj-deals",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.4",
+    "clsx": "^2.0.0",
+    "drizzle-orm": "^0.29.0",
+    "lodash": "^4.17.21",
+    "next": "14.0.2",
+    "postgres": "^3.4.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.11.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.201",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "^10.0.1",
+    "drizzle-kit": "^0.20.2",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "14.0.2",
+    "postcss": "^8.0.0",
+    "supabase": "^1.110.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.0.0"
+  }
+}
