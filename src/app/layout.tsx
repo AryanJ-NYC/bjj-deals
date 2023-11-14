@@ -9,9 +9,14 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'BJJ Deals',
   description:
     'The best Brazilian Jiu Jitsu deals on the internet. Find the best deals on BJJ gis, rashguards, shorts, and more.',
+  twitter: {
+    card: 'summary_large_image',
+    images: [{ height: 734, url: bjjDealsLogo.src, width: 735 }],
+    site: '@bjjdeals',
+  },
+  title: 'BJJ Deals',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
