@@ -1,5 +1,5 @@
 import { clsx } from 'clsx';
-import { RiTwitterXFill } from 'react-icons/ri';
+import { RiInstagramFill, RiTwitterXFill } from 'react-icons/ri';
 import bjjDealsLogo from '../../public/bjj-deals.png';
 import type { Metadata } from 'next';
 import Image from 'next/image';
@@ -42,9 +42,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             width="100%"
             height="221"
           />
-          <div className="flex justify-end text-xl pt-4">
+          <div className="flex gap-x-4 justify-end text-xl pt-4">
             <a href="https://twitter.com/bjjdeals" rel="noreferrer" target="_blank">
               <RiTwitterXFill />
+            </a>
+            <a href="https://www.instagram.com/bjjdealsdotcom" rel="noreferrer" target="_blank">
+              <RiInstagramFill />
             </a>
           </div>
         </footer>
